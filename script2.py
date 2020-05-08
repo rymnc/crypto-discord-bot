@@ -16,7 +16,7 @@ async def on_message(message):
 	if message.content.startswith('crypto'):
 		if message.content == "crypto help":
 			embed = discord.Embed(title="Help",description="some useful commands")
-			embed.add_field(name="crypto btc", value="Returns The Price of Bitcoin")
+			embed.add_field(name="crypto btc", value="Returns The Price of Bitcoin.")
 			embed.add_field(name="crypto eth", value="Returns The Price of Ethereum")
 			embed.add_field(name="crypto xrp", value="Returns The Price of Ripple")
 			embed.add_field(name="crypto xlm", value="Returns The Price of Stellar")
